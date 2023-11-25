@@ -1,0 +1,31 @@
+<div>
+    <h1>Todos los productos en tiempo real</h1>
+    <div class="product_controller">
+        <div class="form_wrapper">
+            <h3>Agregar un nuevo producto</h3>
+            <form id="form_add_product">
+                <input id="input_product_name" type="text" required placeholder="Nombre del producto">
+                <input id="input_product_price" type="float" required placeholder="Precio del producto">
+                <input id="input_product_stock" type="number" required placeholder="Stock del producto">
+                <input id="input_product_description" type="text" required placeholder="Descripción del producto">
+                <input id="input_product_code" type="text" required placeholder="Code del producto">
+                <input id="input_product_category" type="text" required placeholder="Categoría del producto">
+                <input type="submit" value="Agregar producto">
+            </form>
+        </div>
+        <div class="form_wrapper">
+            <h3>Eliminar un producto</h3>
+            <form id="form_delete_product">
+                <input id="input_product_id" type="text" required placeholder="ID del producto">
+                <input type="submit" value="Eliminar producto">
+            </form>
+        </div>
+    </div>
+
+    <div class="products_container">
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/rtp.js"></script>

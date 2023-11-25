@@ -1,0 +1,31 @@
+<div>
+  <h1>Carrito: {{cartId}}</h1>
+  <div class="cart_container">
+    {{#if products}}
+      {{#each products}}
+        <div class="cart_item {{#if this.status}}green{{else}}red{{/if}}">
+          <div>
+            <p><strong>ID: </strong>{{this._id}}</p>
+             <div class="product-image">
+                <a href="#" class="image">
+                    {{#each this.thumbnail}}
+                        <img class="pic-1" src="img/{{this.url1}}">
+                        <img class="pic-2" src="img/{{this.url2}}">
+                    {{/each}}
+                </a>
+            <p><strong>Nombre: </strong>{{this.title}}</p>
+            <p><strong>Precio: </strong>{{this.price}}</p>  
+          </div>
+          <div>
+            <p><strong>Categoria: </strong>{{this.category}}</p>
+            <p>Stock:{{this.stock}}</p>
+            <p>Descripción:{{this.description}}</p>
+            <strong>Cantidad: {{this.quantity}}</strong>
+          </div>
+        </div>
+      {{/each}}
+    {{else}}
+      <h3 style="text-align: center; margin: 1rem">No hay productos en el carrito</h3>
+    {{/if}}
+  </div>
+</div>

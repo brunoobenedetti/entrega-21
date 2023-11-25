@@ -1,0 +1,30 @@
+<div>
+  <h1>Detalles del producto: {{title}}</h1>
+  <div class="products_container">
+    <div class="expand">
+      <div class="product {{#if status}}green{{else}}red{{/if}}">
+        <p><strong>ID: </strong>{{_id}}</p>
+         <div class="product-image">
+                <a href="#" class="image">
+                    {{#each this.thumbnail}}
+                        <img class="pic-1" src="img/{{this.url1}}">
+                        <img class="pic-2" src="img/{{this.url2}}">
+                    {{/each}}
+                </a>
+                </div>
+        <p><strong>Nombre: </strong>{{title}}</p>
+        <p><strong>Precio: </strong>{{price}}</p>
+        <p><strong>Categoria: </strong>{{category}}</p>
+        <p>Stock:{{stock}}</p>
+        <p>Descripción:{{description}}</p>
+
+        <div class="product_buttons_container">
+          <button id="{{_id}}" class="button_add_to_cart expand" {{#unless status}}disabled{{/unless}}>🛒</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/products.js"></script>

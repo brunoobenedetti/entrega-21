@@ -1,0 +1,63 @@
+
+[
+	{
+	"title": "Ender 3 s1 pro",
+	"description": "ender 3 s1 pro FDM",	
+	"price": 500.641,
+	"status": true,
+	"thumbnail": [
+	{
+		"url1": "Ender-3-S1 FDM1.jpg",
+		"url2": "Ender-3-S1 FDM2.jpg"
+	}
+	],
+	"code": "6097",
+	"stock": 120,
+	"id": "asdd4-45564-487qw54-421"
+},
+{
+	"title": "Ender 3 V2",
+	"description": "Ender 3 V2 FDM",
+	"price": 195.564,
+	"status": true,
+	"thumbnail": [
+	{
+		"url1": "Ender-3-V2-1.jpg",
+		"url2": "Ender-3-V2-2.jpg"
+	}
+	],
+	"code": "765",
+	"stock": 120,
+	"id": "ghjghj-5465df4gd-4df541"
+},
+{
+	"title": "Ender 3 NEO",
+	"description": "Ender 3 NEO",
+	"price": 253.556,
+	"status": true,
+	"thumbnail": [
+	{
+		"url1": "Ender 3 NEO-1.jpg",
+		"url2": "Ender 3 NEO-2.jpg"
+	}
+	],
+	"code": "969",
+	"stock": 800,
+	"id": "lñmlvcñm-dfgdwe-fdhc45647g"
+},
+{
+	"title": "Ender 5 PLUS",
+	"description": "Ender 5 PLUS",
+	"price": 1456,
+	"status": true,
+	"thumbnail": [
+	{
+		"url1": "Ender-5-PLUS-1.jpg",
+		"url2": "Ender-5-PLUS-2.jpg"
+	}
+	],
+	"code": "870",
+	"stock": 120,
+	"id": "asda4564s564s-sd4-513a2s132"
+}
+]
